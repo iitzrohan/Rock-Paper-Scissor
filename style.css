@@ -1,0 +1,59 @@
+#gameDiv {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #191724;
+    width: 600px;
+
+    /* Center the container horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add padding for spacing */
+    padding-bottom: 40px;
+    /* Center Container Vertically */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    user-select: none;
+    margin-bottom: 5px;
+}
+
+.gameText{
+    font-size: 40px;
+    color: #40c437;
+    font-family: consolas, monospace;
+    margin-left: 50px;
+}
+
+#playerText{
+    color:lightskyblue;
+}
+#computerText{
+    color: lightskyblue;
+}
+
+.score-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.gameScore {
+    font-size: 40px;
+    color: #40c437;
+    font-family: consolas, monospace;
+    margin-left: 50px;
+    margin-right: 5px; /* Add space between score and text */
+}
+
+#resetGameBtn{
+    line-height: 30px;
+    width: 150px;
+    user-select: none;
+    margin-bottom: 5px;
+}
